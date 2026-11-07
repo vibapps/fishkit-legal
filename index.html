@@ -21,19 +21,22 @@
   th { color:var(--muted); font-weight:600; }
   a { color:var(--accent); }
   .tr { margin-top:56px; padding-top:32px; border-top:2px solid var(--line); }
+  .langs { font-size:.9rem; margin:0 0 20px; line-height:1.9; }
+  .langs a { white-space:nowrap; }
   footer { margin-top:36px; color:var(--muted); font-size:.88rem; }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1>FishKit — Privacy Policy</h1>
-  <div class="date">Last updated: 1 November 2026</div>
+  <nav class="langs"><a href="#en">English</a> · <a href="#tr">Türkçe</a> · <a href="#de">Deutsch</a> · <a href="#fr">Français</a> · <a href="#es">Español</a> · <a href="#it">Italiano</a> · <a href="#pt-BR">Português</a> · <a href="#nl">Nederlands</a> · <a href="#pl">Polski</a> · <a href="#el">Ελληνικά</a> · <a href="#ru">Русский</a> · <a href="#id">Bahasa Indonesia</a> · <a href="#vi">Tiếng Việt</a> · <a href="#hi">हिन्दी</a> · <a href="#ja">日本語</a> · <a href="#ko">한국어</a> · <a href="#zh-Hans">简体中文</a></nav>
+  <h1 id="en">FishKit — Privacy Policy</h1>
+  <div class="date">Last updated: 6 November 2026</div>
 
   <div class="box">
     In short: FishKit has no accounts. Your catch log, tackle box, notes and photos stay on your phone.
     A photo leaves your device only when you choose to: to identify a fish (processed, not stored), or when you
     share a catch report with other anglers (published until you delete it). Ads in the free version are
-    non-personalised, and we do not track you across apps.
+    personalised only if you allow tracking when iOS asks; otherwise they are non-personalised.
   </div>
 
   <h2>1. What we collect</h2>
@@ -98,8 +101,10 @@
   <h2>7. Advertising</h2>
   <p>The free version shows Google AdMob ads: a banner on the Today, Box and Log tabs, an occasional full-screen ad after you
      save a catch, and an optional rewarded ad you start yourself to get extra scans. There are no ads on the Guide,
-     map, scan result, venomous species or first-aid screens. All ads are requested as non-personalised; we do not ask
-     for App Tracking Transparency permission and do not use your advertising identifier for tracking. Google may process
+     map, scan result, venomous species or first-aid screens. FishKit asks for App Tracking Transparency permission once,
+     after the Google consent form (if shown). If you allow it, Google may use your advertising identifier to show more
+     relevant ads; if you don't, every ad is requested as non-personalised and the identifier is not available to us or Google.
+     You can change this any time in iOS Settings → Privacy &amp; Security → Tracking. Google may process
      device information and approximate location to serve ads and prevent fraud
      (<a href="https://policies.google.com/technologies/ads">Google ad policies</a>). Users in the EEA, UK and Switzerland
      see Google's consent form and can change their choice in Settings → Ads. FishKit Pro has no ads.</p>
@@ -115,14 +120,14 @@
   <h2>10. Contact</h2>
   <p>Questions: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
 
-  <div class="tr" lang="tr">
+  <div class="tr" lang="tr" id="tr">
     <h1>FishKit — Gizlilik Politikası</h1>
-    <div class="date">Son güncelleme: 1 Kasım 2026</div>
+    <div class="date">Son güncelleme: 6 Kasım 2026</div>
     <div class="box">
       Kısaca: Hesap yok. Av defterin, takım çantan, notların ve fotoğrafların telefonunda kalır. Bir fotoğraf
       cihazdan yalnızca sen istediğinde çıkar: balık tanıma için (işlenir, saklanmaz) ya da diğer balıkçılarla av
-      raporu paylaştığında (sen silene kadar yayında kalır). Ücretsiz sürümdeki reklamlar kişiselleştirilmez;
-      seni uygulamalar arası takip etmeyiz.
+      raporu paylaştığında (sen silene kadar yayında kalır). Ücretsiz sürümdeki reklamlar yalnızca iOS sorduğunda
+      takibe izin verirsen kişiselleştirilir; aksi hâlde kişiselleştirilmez.
     </div>
     <h2>Cihazında kalanlar</h2>
     <p>Av kayıtları ve fotoğrafları, takım çantası parçaları ve fotoğrafları, notlar, noktalar ve ayarlar yalnızca
@@ -154,9 +159,235 @@
     <h2>Reklam</h2>
     <p>Ücretsiz sürümde Bugün, Çanta ve Defter sekmelerinde banner, av kaydından sonra seyrek tam ekran reklam ve
        senin başlattığın isteğe bağlı ödüllü reklam vardır. Rehber, harita, tarama sonucu, zehirli tür ve ilk yardım
-       ekranlarında reklam yoktur. Reklamlar kişiselleştirilmez, takip izni istenmez. FishKit Pro reklamsızdır.</p>
+       ekranlarında reklam yoktur. Uygulama bir kez takip izni (ATT) ister; izin verirsen reklamlar
+       daha ilgili olabilir, vermezsen kişiselleştirilmez. Bunu iOS Ayarlar → Gizlilik ve Güvenlik → Takip'ten değiştirebilirsin. FishKit Pro reklamsızdır.</p>
     <h2>İletişim</h2>
     <p><a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="de" id="de">
+    <h1>FishKit – Datenschutzerklärung (Zusammenfassung)</h1>
+    <div class="date">Stand: 6. November 2026</div>
+    <ul>
+      <li>Kein Konto. Fangbuch, Köderbox, Notizen und Fotos bleiben auf deinem iPhone und werden mit der App gelöscht.</li>
+      <li>Fisch erkennen: Eine verkleinerte Kopie des Fotos geht nur zur Erstellung des Ergebnisses an unseren Dienst und unseren KI-Anbieter (Anthropic). Sie wird nicht gespeichert und nicht zum Training genutzt.</li>
+      <li>Fangberichte (freiwillig): Art, Spitzname, optionale Notiz und Foto, Ort auf 2 oder 10 km gerundet. Inhalte werden vor der Veröffentlichung automatisch geprüft; du kannst sie jederzeit löschen, andere können melden oder blockieren.</li>
+      <li>Vorhersage: Nur die Koordinaten des Spots gehen an unseren Dienst (Cloudflare). Wetter von MET Norway, Meer von ECMWF und NOAA.</li>
+      <li>Werbung (Gratisversion, Google AdMob): Die App fragt einmal nach der Tracking-Erlaubnis (ATT). Erlaubst du es, kann Werbung personalisiert werden, sonst nicht. Änderbar unter iOS-Einstellungen → Datenschutz &amp; Sicherheit → Tracking. FishKit Pro ist werbefrei.</li>
+      <li>Käufe wickelt Apple ab; wir sehen keine Zahlungsdaten.</li>
+      <li>FishKit richtet sich nicht an Kinder unter 13 Jahren.</li>
+    </ul>
+    <p>Dies ist eine Zusammenfassung; maßgeblich ist die vollständige englische Fassung oben. Kontakt: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="fr" id="fr">
+    <h1>FishKit – Politique de confidentialité (résumé)</h1>
+    <div class="date">Mise à jour : 6 novembre 2026</div>
+    <ul>
+      <li>Aucun compte. Le carnet de prises, la boîte à leurres, les notes et les photos restent sur votre iPhone et sont supprimés avec l&#x27;app.</li>
+      <li>Identification : une copie réduite de la photo est envoyée à notre service et à notre fournisseur d&#x27;IA (Anthropic) uniquement pour produire le résultat. Elle n&#x27;est ni conservée ni utilisée pour l&#x27;entraînement.</li>
+      <li>Rapports de prise (facultatifs) : espèce, pseudo, note et photo facultatives, position arrondie à 2 ou 10 km. Le contenu est vérifié automatiquement avant publication ; vous pouvez le supprimer à tout moment, les autres peuvent le signaler ou bloquer l&#x27;auteur.</li>
+      <li>Prévisions : seules les coordonnées du spot sont envoyées à notre service (Cloudflare). Météo de MET Norway, mer d&#x27;ECMWF et de la NOAA.</li>
+      <li>Publicité (version gratuite, Google AdMob) : l&#x27;app demande une fois l&#x27;autorisation de suivi (ATT). Si vous l&#x27;acceptez, les publicités peuvent être personnalisées ; sinon, elles ne le sont pas. Modifiable dans Réglages iOS → Confidentialité et sécurité → Suivi. FishKit Pro est sans publicité.</li>
+      <li>Les achats sont gérés par Apple ; nous ne voyons jamais vos données de paiement.</li>
+      <li>FishKit ne s&#x27;adresse pas aux enfants de moins de 13 ans.</li>
+    </ul>
+    <p>Ceci est un résumé ; la version anglaise complète ci-dessus fait foi. Contact : <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="es" id="es">
+    <h1>FishKit – Política de privacidad (resumen)</h1>
+    <div class="date">Actualizado: 6 de noviembre de 2026</div>
+    <ul>
+      <li>Sin cuenta. El diario de capturas, la caja de señuelos, las notas y las fotos se quedan en tu iPhone y se borran con la app.</li>
+      <li>Identificación: una copia reducida de la foto se envía a nuestro servicio y a nuestro proveedor de IA (Anthropic) solo para obtener el resultado. No se guarda ni se usa para entrenar modelos.</li>
+      <li>Reportes de captura (opcionales): especie, apodo, nota y foto opcionales, ubicación redondeada a 2 o 10 km. Se revisan automáticamente antes de publicarse; puedes borrarlos cuando quieras y otros pueden denunciarlos o bloquear al autor.</li>
+      <li>Pronóstico: solo se envían las coordenadas del punto a nuestro servicio (Cloudflare). Tiempo de MET Norway; mar de ECMWF y NOAA.</li>
+      <li>Anuncios (versión gratuita, Google AdMob): la app pide una vez permiso de seguimiento (ATT). Si lo das, los anuncios pueden personalizarse; si no, no. Puedes cambiarlo en Ajustes de iOS → Privacidad y seguridad → Seguimiento. FishKit Pro no tiene anuncios.</li>
+      <li>Apple gestiona las compras; nunca vemos tus datos de pago.</li>
+      <li>FishKit no está dirigida a menores de 13 años.</li>
+    </ul>
+    <p>Esto es un resumen; prevalece la versión completa en inglés de arriba. Contacto: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="it" id="it">
+    <h1>FishKit – Informativa sulla privacy (sintesi)</h1>
+    <div class="date">Aggiornata il 6 novembre 2026</div>
+    <ul>
+      <li>Nessun account. Diario delle catture, cassetta delle esche, note e foto restano sul tuo iPhone e vengono eliminati con l&#x27;app.</li>
+      <li>Riconoscimento: una copia ridotta della foto viene inviata al nostro servizio e al nostro fornitore di IA (Anthropic) solo per ottenere il risultato. Non viene conservata né usata per l&#x27;addestramento.</li>
+      <li>Segnalazioni di cattura (facoltative): specie, nickname, nota e foto facoltative, posizione arrotondata a 2 o 10 km. Vengono controllate automaticamente prima della pubblicazione; puoi eliminarle quando vuoi e gli altri possono segnalarle o bloccare l&#x27;autore.</li>
+      <li>Previsioni: al nostro servizio (Cloudflare) arrivano solo le coordinate dello spot. Meteo da MET Norway, mare da ECMWF e NOAA.</li>
+      <li>Pubblicità (versione gratuita, Google AdMob): l&#x27;app chiede una volta il permesso di tracciamento (ATT). Se lo concedi, gli annunci possono essere personalizzati; altrimenti no. Puoi cambiarlo in Impostazioni iOS → Privacy e sicurezza → Tracciamento. FishKit Pro è senza pubblicità.</li>
+      <li>Gli acquisti sono gestiti da Apple; non vediamo mai i tuoi dati di pagamento.</li>
+      <li>FishKit non è destinata ai minori di 13 anni.</li>
+    </ul>
+    <p>Questa è una sintesi; fa fede la versione inglese completa qui sopra. Contatto: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="pt-BR" id="pt-BR">
+    <h1>FishKit – Política de privacidade (resumo)</h1>
+    <div class="date">Atualizada em 6 de novembro de 2026</div>
+    <ul>
+      <li>Sem conta. O diário de capturas, a caixa de iscas, as notas e as fotos ficam no seu iPhone e são apagados junto com o app.</li>
+      <li>Identificação: uma cópia reduzida da foto é enviada ao nosso serviço e ao nosso provedor de IA (Anthropic) apenas para gerar o resultado. Ela não é armazenada nem usada para treinamento.</li>
+      <li>Relatos de captura (opcionais): espécie, apelido, nota e foto opcionais, local arredondado para 2 ou 10 km. O conteúdo é verificado automaticamente antes de ser publicado; você pode apagá-lo quando quiser, e outros podem denunciá-lo ou bloquear o autor.</li>
+      <li>Previsão: só as coordenadas do ponto vão para o nosso serviço (Cloudflare). Clima do MET Norway; mar do ECMWF e da NOAA.</li>
+      <li>Anúncios (versão gratuita, Google AdMob): o app pede uma vez permissão de rastreamento (ATT). Se você permitir, os anúncios podem ser personalizados; se não, não serão. Altere em Ajustes do iOS → Privacidade e Segurança → Rastreamento. O FishKit Pro não tem anúncios.</li>
+      <li>As compras são processadas pela Apple; nunca vemos seus dados de pagamento.</li>
+      <li>O FishKit não é destinado a menores de 13 anos.</li>
+    </ul>
+    <p>Este é um resumo; prevalece a versão completa em inglês acima. Contato: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="nl" id="nl">
+    <h1>FishKit – Privacybeleid (samenvatting)</h1>
+    <div class="date">Bijgewerkt: 6 november 2026</div>
+    <ul>
+      <li>Geen account. Vangstlogboek, kunstaasdoos, notities en foto&#x27;s blijven op je iPhone en worden met de app verwijderd.</li>
+      <li>Vis herkennen: een verkleinde kopie van de foto gaat alleen naar onze dienst en onze AI-aanbieder (Anthropic) om het resultaat te maken. Hij wordt niet bewaard en niet voor training gebruikt.</li>
+      <li>Vangstmeldingen (optioneel): soort, bijnaam, optionele notitie en foto, locatie afgerond op 2 of 10 km. Inhoud wordt vóór publicatie automatisch gecontroleerd; je kunt meldingen altijd verwijderen, anderen kunnen ze rapporteren of de maker blokkeren.</li>
+      <li>Voorspelling: alleen de coördinaten van de stek gaan naar onze dienst (Cloudflare). Weer van MET Norway, zee van ECMWF en NOAA.</li>
+      <li>Advertenties (gratis versie, Google AdMob): de app vraagt één keer om toestemming voor tracking (ATT). Sta je het toe, dan kunnen advertenties gepersonaliseerd worden; anders niet. Wijzig dit in iOS-instellingen → Privacy en beveiliging → Tracking. FishKit Pro is reclamevrij.</li>
+      <li>Aankopen lopen via Apple; wij zien nooit je betaalgegevens.</li>
+      <li>FishKit is niet bedoeld voor kinderen jonger dan 13 jaar.</li>
+    </ul>
+    <p>Dit is een samenvatting; de volledige Engelse versie hierboven is leidend. Contact: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="pl" id="pl">
+    <h1>FishKit – Polityka prywatności (streszczenie)</h1>
+    <div class="date">Aktualizacja: 6 listopada 2026</div>
+    <ul>
+      <li>Bez konta. Dziennik połowów, pudełko z przynętami, notatki i zdjęcia zostają na Twoim iPhonie i są usuwane razem z aplikacją.</li>
+      <li>Rozpoznawanie ryb: pomniejszona kopia zdjęcia trafia do naszej usługi i naszego dostawcy AI (Anthropic) wyłącznie w celu uzyskania wyniku. Nie jest przechowywana ani używana do trenowania.</li>
+      <li>Raporty z połowów (opcjonalne): gatunek, pseudonim, opcjonalna notatka i zdjęcie, lokalizacja zaokrąglona do 2 lub 10 km. Treść jest automatycznie sprawdzana przed publikacją; możesz ją usunąć w dowolnej chwili, a inni mogą ją zgłosić lub zablokować autora.</li>
+      <li>Prognoza: do naszej usługi (Cloudflare) trafiają tylko współrzędne łowiska. Pogoda z MET Norway, dane morskie z ECMWF i NOAA.</li>
+      <li>Reklamy (wersja darmowa, Google AdMob): aplikacja raz prosi o zgodę na śledzenie (ATT). Jeśli się zgodzisz, reklamy mogą być spersonalizowane; jeśli nie — nie będą. Zmienisz to w Ustawieniach iOS → Prywatność i ochrona → Śledzenie. FishKit Pro jest bez reklam.</li>
+      <li>Zakupy obsługuje Apple; nigdy nie widzimy Twoich danych płatniczych.</li>
+      <li>FishKit nie jest przeznaczony dla dzieci poniżej 13 lat.</li>
+    </ul>
+    <p>To jest streszczenie; wiążąca jest pełna wersja angielska powyżej. Kontakt: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="el" id="el">
+    <h1>FishKit – Πολιτική απορρήτου (σύνοψη)</h1>
+    <div class="date">Ενημέρωση: 6 Νοεμβρίου 2026</div>
+    <ul>
+      <li>Χωρίς λογαριασμό. Το ημερολόγιο ψαριών, το κουτί με τα δολώματα, οι σημειώσεις και οι φωτογραφίες μένουν στο iPhone σας και διαγράφονται μαζί με την εφαρμογή.</li>
+      <li>Αναγνώριση ψαριού: ένα σμικρυμένο αντίγραφο της φωτογραφίας στέλνεται στην υπηρεσία μας και στον πάροχο ΤΝ (Anthropic) μόνο για να βγει το αποτέλεσμα. Δεν αποθηκεύεται και δεν χρησιμοποιείται για εκπαίδευση.</li>
+      <li>Αναφορές ψαρέματος (προαιρετικές): είδος, ψευδώνυμο, προαιρετική σημείωση και φωτογραφία, τοποθεσία στρογγυλεμένη στα 2 ή 10 km. Ελέγχονται αυτόματα πριν δημοσιευτούν· μπορείτε να τις διαγράψετε όποτε θέλετε και οι άλλοι μπορούν να τις αναφέρουν ή να μπλοκάρουν τον συντάκτη.</li>
+      <li>Πρόγνωση: στην υπηρεσία μας (Cloudflare) πηγαίνουν μόνο οι συντεταγμένες του σημείου. Καιρός από MET Norway, θάλασσα από ECMWF και NOAA.</li>
+      <li>Διαφημίσεις (δωρεάν έκδοση, Google AdMob): η εφαρμογή ζητά μία φορά άδεια παρακολούθησης (ATT). Αν τη δώσετε, οι διαφημίσεις μπορεί να εξατομικεύονται· αλλιώς όχι. Αλλάζει από Ρυθμίσεις iOS → Απόρρητο και ασφάλεια → Παρακολούθηση. Το FishKit Pro δεν έχει διαφημίσεις.</li>
+      <li>Τις αγορές τις διαχειρίζεται η Apple· δεν βλέπουμε ποτέ στοιχεία πληρωμής.</li>
+      <li>Το FishKit δεν απευθύνεται σε παιδιά κάτω των 13 ετών.</li>
+    </ul>
+    <p>Αυτή είναι σύνοψη· ισχύει η πλήρης αγγλική έκδοση παραπάνω. Επικοινωνία: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="ru" id="ru">
+    <h1>FishKit — Политика конфиденциальности (кратко)</h1>
+    <div class="date">Обновлено: 6 ноября 2026 г.</div>
+    <ul>
+      <li>Без аккаунта. Журнал уловов, коробка с приманками, заметки и фото остаются на вашем iPhone и удаляются вместе с приложением.</li>
+      <li>Определение рыбы: уменьшенная копия фото отправляется в наш сервис и нашему ИИ-поставщику (Anthropic) только для получения результата. Она не хранится и не используется для обучения.</li>
+      <li>Отчёты об улове (по желанию): вид, псевдоним, необязательные заметка и фото, место с округлением до 2 или 10 км. Перед публикацией содержимое проверяется автоматически; вы можете удалить отчёт в любой момент, другие могут пожаловаться или заблокировать автора.</li>
+      <li>Прогноз: в наш сервис (Cloudflare) передаются только координаты точки. Погода — MET Norway, море — ECMWF и NOAA.</li>
+      <li>Реклама (бесплатная версия, Google AdMob): приложение один раз запрашивает разрешение на отслеживание (ATT). Если разрешить, реклама может быть персонализированной, если нет — не будет. Изменить: Настройки iOS → Конфиденциальность и безопасность → Отслеживание. В FishKit Pro рекламы нет.</li>
+      <li>Покупки обрабатывает Apple; мы никогда не видим платёжные данные.</li>
+      <li>FishKit не предназначен для детей младше 13 лет.</li>
+    </ul>
+    <p>Это краткое изложение; действует полная английская версия выше. Контакт: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="id" id="id">
+    <h1>FishKit – Kebijakan Privasi (ringkasan)</h1>
+    <div class="date">Diperbarui: 6 November 2026</div>
+    <ul>
+      <li>Tanpa akun. Catatan tangkapan, kotak umpan, catatan, dan foto tetap di iPhone Anda dan terhapus bersama aplikasi.</li>
+      <li>Identifikasi ikan: salinan foto yang diperkecil dikirim ke layanan kami dan penyedia AI kami (Anthropic) hanya untuk menghasilkan hasil. Foto tidak disimpan dan tidak dipakai untuk pelatihan.</li>
+      <li>Laporan tangkapan (opsional): spesies, nama panggilan, catatan dan foto opsional, lokasi dibulatkan ke 2 atau 10 km. Konten diperiksa otomatis sebelum terbit; Anda bisa menghapusnya kapan saja, dan orang lain bisa melaporkan atau memblokir pembuatnya.</li>
+      <li>Prakiraan: hanya koordinat titik yang dikirim ke layanan kami (Cloudflare). Cuaca dari MET Norway, laut dari ECMWF dan NOAA.</li>
+      <li>Iklan (versi gratis, Google AdMob): aplikasi meminta izin pelacakan (ATT) sekali. Jika diizinkan, iklan bisa dipersonalisasi; jika tidak, tidak. Ubah di Pengaturan iOS → Privasi &amp; Keamanan → Pelacakan. FishKit Pro bebas iklan.</li>
+      <li>Pembelian diproses oleh Apple; kami tidak pernah melihat data pembayaran Anda.</li>
+      <li>FishKit tidak ditujukan untuk anak di bawah 13 tahun.</li>
+    </ul>
+    <p>Ini ringkasan; versi lengkap berbahasa Inggris di atas yang berlaku. Kontak: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="vi" id="vi">
+    <h1>FishKit – Chính sách quyền riêng tư (tóm tắt)</h1>
+    <div class="date">Cập nhật: 6 tháng 11 năm 2026</div>
+    <ul>
+      <li>Không cần tài khoản. Nhật ký câu, hộp mồi, ghi chú và ảnh nằm trên iPhone của bạn và bị xóa cùng ứng dụng.</li>
+      <li>Nhận diện cá: một bản sao thu nhỏ của ảnh được gửi đến dịch vụ của chúng tôi và nhà cung cấp AI (Anthropic) chỉ để tạo kết quả. Ảnh không được lưu và không dùng để huấn luyện.</li>
+      <li>Báo cáo cá câu được (tùy chọn): loài, biệt danh, ghi chú và ảnh tùy chọn, vị trí làm tròn đến 2 hoặc 10 km. Nội dung được kiểm tra tự động trước khi đăng; bạn có thể xóa bất cứ lúc nào, người khác có thể báo cáo hoặc chặn người đăng.</li>
+      <li>Dự báo: chỉ tọa độ điểm câu được gửi đến dịch vụ của chúng tôi (Cloudflare). Thời tiết từ MET Norway, biển từ ECMWF và NOAA.</li>
+      <li>Quảng cáo (bản miễn phí, Google AdMob): ứng dụng hỏi quyền theo dõi (ATT) một lần. Nếu bạn cho phép, quảng cáo có thể được cá nhân hóa; nếu không thì không. Thay đổi trong Cài đặt iOS → Quyền riêng tư &amp; Bảo mật → Theo dõi. FishKit Pro không có quảng cáo.</li>
+      <li>Apple xử lý việc mua hàng; chúng tôi không bao giờ thấy thông tin thanh toán của bạn.</li>
+      <li>FishKit không dành cho trẻ em dưới 13 tuổi.</li>
+    </ul>
+    <p>Đây là bản tóm tắt; bản tiếng Anh đầy đủ ở trên là bản có hiệu lực. Liên hệ: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="hi" id="hi">
+    <h1>FishKit – गोपनीयता नीति (सारांश)</h1>
+    <div class="date">अपडेट: 6 नवंबर 2026</div>
+    <ul>
+      <li>कोई खाता नहीं। कैच लॉग, टैकल बॉक्स, नोट्स और फ़ोटो आपके iPhone पर ही रहते हैं और ऐप हटाने पर हट जाते हैं।</li>
+      <li>मछली पहचान: फ़ोटो की छोटी कॉपी सिर्फ़ नतीजा बनाने के लिए हमारी सेवा और हमारे AI प्रदाता (Anthropic) को भेजी जाती है। इसे न सहेजा जाता है, न ट्रेनिंग में इस्तेमाल किया जाता है।</li>
+      <li>कैच रिपोर्ट (वैकल्पिक): प्रजाति, उपनाम, वैकल्पिक नोट और फ़ोटो, 2 या 10 किमी तक गोल किया गया स्थान। प्रकाशन से पहले सामग्री अपने-आप जाँची जाती है; आप इसे कभी भी हटा सकते हैं, दूसरे इसकी शिकायत कर सकते हैं या लेखक को ब्लॉक कर सकते हैं।</li>
+      <li>पूर्वानुमान: हमारी सेवा (Cloudflare) को सिर्फ़ जगह के निर्देशांक भेजे जाते हैं। मौसम MET Norway से, समुद्र ECMWF और NOAA से।</li>
+      <li>विज्ञापन (मुफ़्त संस्करण, Google AdMob): ऐप एक बार ट्रैकिंग की अनुमति (ATT) माँगता है। अनुमति देने पर विज्ञापन व्यक्तिगत हो सकते हैं, वरना नहीं। इसे iOS सेटिंग्स → गोपनीयता और सुरक्षा → ट्रैकिंग में बदलें। FishKit Pro में विज्ञापन नहीं हैं।</li>
+      <li>ख़रीदारी Apple संभालता है; हम आपकी भुगतान जानकारी कभी नहीं देखते।</li>
+      <li>FishKit 13 वर्ष से कम उम्र के बच्चों के लिए नहीं है।</li>
+    </ul>
+    <p>यह सारांश है; ऊपर दिया गया पूरा अंग्रेज़ी संस्करण मान्य है। संपर्क: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="ja" id="ja">
+    <h1>FishKit – プライバシーポリシー（概要）</h1>
+    <div class="date">最終更新：2026年11月6日</div>
+    <ul>
+      <li>アカウントは不要です。釣果記録、タックルボックス、メモ、写真はiPhone内に保存され、アプリを削除すると消えます。</li>
+      <li>魚の判別：縮小した写真のコピーを、結果を出すためだけに当社のサービスとAI提供元（Anthropic）に送ります。保存も学習への利用もしません。</li>
+      <li>釣果レポート（任意）：魚種、ニックネーム、任意のメモと写真、2kmまたは10km単位に丸めた位置。公開前に内容を自動で確認します。いつでも削除でき、他のユーザーは通報や投稿者のブロックができます。</li>
+      <li>予報：当社のサービス（Cloudflare）に送るのは釣り場の座標だけです。天気はMET Norway、海況はECMWFとNOAAのデータです。</li>
+      <li>広告（無料版、Google AdMob）：アプリは一度だけトラッキングの許可（ATT）を求めます。許可すると広告がパーソナライズされることがあり、許可しなければされません。iOSの設定 → プライバシーとセキュリティ → トラッキング で変更できます。FishKit Proに広告はありません。</li>
+      <li>購入はAppleが処理し、当社が支払い情報を見ることはありません。</li>
+      <li>FishKitは13歳未満の子どもを対象としていません。</li>
+    </ul>
+    <p>これは概要です。上記の英語版全文が優先されます。お問い合わせ： <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="ko" id="ko">
+    <h1>FishKit – 개인정보 처리방침 (요약)</h1>
+    <div class="date">최종 업데이트: 2026년 11월 6일</div>
+    <ul>
+      <li>계정이 필요 없습니다. 조과 기록, 태클 박스, 메모, 사진은 iPhone에만 저장되며 앱을 삭제하면 함께 지워집니다.</li>
+      <li>물고기 판별: 결과를 내기 위해서만 축소된 사진 사본을 저희 서비스와 AI 제공업체(Anthropic)에 보냅니다. 저장하거나 학습에 쓰지 않습니다.</li>
+      <li>조과 보고(선택): 어종, 닉네임, 선택적 메모와 사진, 2km 또는 10km로 반올림한 위치. 게시 전에 내용을 자동으로 검사하며, 언제든 삭제할 수 있고 다른 사용자는 신고하거나 작성자를 차단할 수 있습니다.</li>
+      <li>예보: 저희 서비스(Cloudflare)에는 포인트 좌표만 전송됩니다. 날씨는 MET Norway, 바다는 ECMWF와 NOAA 데이터입니다.</li>
+      <li>광고(무료 버전, Google AdMob): 앱은 추적 허용(ATT)을 한 번 요청합니다. 허용하면 맞춤 광고가 표시될 수 있고, 허용하지 않으면 맞춤 광고가 아닙니다. iOS 설정 → 개인정보 보호 및 보안 → 추적에서 바꿀 수 있습니다. FishKit Pro에는 광고가 없습니다.</li>
+      <li>결제는 Apple이 처리하며 저희는 결제 정보를 볼 수 없습니다.</li>
+      <li>FishKit은 13세 미만 어린이를 대상으로 하지 않습니다.</li>
+    </ul>
+    <p>이 내용은 요약이며, 위의 영어 전문이 우선합니다. 문의: <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
+  </div>
+
+  <div class="tr" lang="zh-Hans" id="zh-Hans">
+    <h1>FishKit – 隐私政策（摘要）</h1>
+    <div class="date">更新日期：2026年11月6日</div>
+    <ul>
+      <li>无需账号。渔获记录、钓具箱、笔记和照片都保存在你的 iPhone 上，删除应用即一并删除。</li>
+      <li>识鱼：仅为得出结果，会把缩小后的照片副本发送到我们的服务和 AI 提供方（Anthropic）。照片不会保存，也不会用于训练。</li>
+      <li>渔获报告（可选）：鱼种、昵称、可选的备注和照片，位置取整到 2 公里或 10 公里。发布前会自动审核内容；你可随时删除，其他用户可以举报或屏蔽发布者。</li>
+      <li>预报：只向我们的服务（Cloudflare）发送钓点坐标。天气来自 MET Norway，海况来自 ECMWF 和 NOAA。</li>
+      <li>广告（免费版，Google AdMob）：应用会询问一次是否允许跟踪（ATT）。允许后广告可能是个性化的，不允许则不会。可在 iOS 设置 → 隐私与安全性 → 跟踪 中更改。FishKit Pro 无广告。</li>
+      <li>购买由 Apple 处理，我们看不到你的支付信息。</li>
+      <li>FishKit 不面向 13 岁以下儿童。</li>
+    </ul>
+    <p>以上为摘要，以上方完整英文版为准。联系方式： <a href="mailto:degivapp@gmail.com">degivapp@gmail.com</a></p>
   </div>
 
   <footer>FishKit · <a href="support/">Support</a></footer>
